@@ -1,8 +1,156 @@
+  body {
+    background: #FBF8F1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-bar {
+    max-width: 100%;
+    padding: 0 10%;
+  }
+
+  .mariko-color {
+    color: #826F66 !important;
+  }
+
+  .nav-container {
+    background: #F7ECDE;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 
-  h1 {
+  .navbar-brand {
+    color: #826F66;
+  }
+
+  .headline {
       font-style: italic;
-      background: lightgray;
-      margin-right: 85%;
       text-align: center;
+      font-size: 60px;
+      color: #826F66;
+      margin: 100px 0;
+  }
+
+
+
+
+  .footer {
+    padding: 70px 0;
+    background: #F7ECDE;
+    text-align: center;
+    color: #826F66;
+  }
+
+  .footer-link {
+    list-style: none;
+    text-align: center;
+  }
+
+  .link {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  .link a {
+    color: #826F66;
+  }
+
+
+
+
+
+
+
+  .container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+  }
+
+  .map {
+
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    
+  }
+
+  #pin1 {
+    position: absolute;
+    width: 3%;
+    left: 59%;
+    top: 49%;
+  }
+
+  #pin2 {
+    position: absolute;
+    width: 3%;
+    left: 57%;
+    top: 48%;
+  }
+
+  #pin3 {
+    position: absolute;
+    width: 3%;
+    left: 46%;
+    top: 51%;
+  }
+
+  .pin-img {
+    height: 20%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0); !* Fallback color *!*/
+    /*background-color: rgba(0,0,0,0.01); !* Black w/ opacity *!*/
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #F7ECDE;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #F7ECDE;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: #826F66;
+  }
+
+  .modal-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .pin:hover{
+    cursor:pointer;
   }
